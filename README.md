@@ -1,5 +1,55 @@
-# example-python
-Python example
+# Environment Setup
+## Homebrew
+### Install Homebrew on Mac OS
+- open Terminal
+- /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+- brew -v
+
+## Python 3
+### Install Python 3 on Mac OS
+- Before installing Python, it need to install GCC : Xcode or Command Line Tools
+- brew install python
+- nano ~/.bash_profile : export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+- python --version
+### Upgrade Python 3 on Mac OS
+- brew upgrade python
+### Install Pipenv on Mac OS
+- pip install --user pipenv
+- add the user base’s binary directory to PATH.
+  - python -m site --user-base  : the path is ~/Library/Python/3.7
+  - nano ~/.bash_profile : export PATH=$PATH:~/Library/Python/3.7/bin
+### Using Pipenv on Mac OS
+- cd project_folder
+- pipenv install requests
+- pipenv run python src/module/requests_mod.py
+### Install virtualenv on Mac OS
+- pip install virtualenv
+- virtualenv --version
+### Using virtualenv on Mac OS
+- cd project_folder
+- virtualenv venv
+- virtualenv -p /usr/bin/python2.7 venv
+- source venv/bin/activate
+- pip install requests
+- deactivate
+
+## MariaDB
+### Install on Mac
+* brew install mariadb
+## Start MariaDB server
+* mysql.server start
+* brew services start mariadb
+* mysql -u root
+
+
+# Pip
+## Installation library
+* pip install pycodestyle
+* pip install requests
+
+## Using library
+* pycodestyle --first --show-source --show-pep8 optparse.py
+
 
 # Python Style Guide
 * Beautiful is better than ugly.
@@ -18,14 +68,6 @@ Python example
 * Constants are written in uppercase letters
 
 
-# Pip
-## Installation
-* pip install pycodestyle
-
-## Usage
-* pycodestyle --first --show-source --show-pep8 optparse.py
-## Location
-* /Users/jianpinggan/.virtualenvs/example-python/lib/python3.7/site-packages
 
 # Django
 ## Install
@@ -49,16 +91,10 @@ Python example
 * admin:admin123
 * http://127.0.0.1:8000/admin/.
 
-# MariaDB
-## Install on Mac
-* brew install mariadb
-## Start MariaDB server
-* mysql.server start
-* brew services start mariadb
-* mysql -u root
 
-# Related Website
-* https://stackabuse.com/introduction-to-the-python-coding-style/
-* https://www.pythonforbeginners.com/
-* https://www.learnpython.org
-* https://github.com/michaelliao/learn-python3
+# Learning Python Website
+- https://stackabuse.com/introduction-to-the-python-coding-style/
+- https://www.pythonforbeginners.com/
+- https://www.learnpython.org
+- https://github.com/michaelliao/learn-python3
+- https://docs.python-guide.org
