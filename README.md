@@ -1,54 +1,48 @@
 # Environment Setup
-## Homebrew
-### Install Homebrew on Mac OS
+## Install Homebrew on Mac OS
 - open Terminal
 - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 - brew -v
-
-## Python 3
-### Install Python 3 on Mac OS
+## Install Python 3 on Mac OS
 - Before installing Python, it need to install GCC : Xcode or Command Line Tools
 - brew install python
 - nano ~/.bash_profile : export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 - python --version
-### Upgrade Python 3 on Mac OS
-- brew upgrade python
-### Install Pipenv on Mac OS
+## Install Pipenv on Mac OS
 - pip install --user pipenv
 - add the user base’s binary directory to PATH.
   - python -m site --user-base  : the path is ~/Library/Python/3.7
   - nano ~/.bash_profile : export PATH=$PATH:~/Library/Python/3.7/bin
-### Using Pipenv on Mac OS
+## Install virtualenv on Mac OS
+- pip install virtualenv
+- virtualenv --version
+## Install on Mac
+- brew install mariadb
+
+
+# Useful Command
+## Python 3 on Mac OS
+- brew upgrade python
+- python --version
+## Pipenv on Mac OS
 - cd project_folder
 - pipenv install requests
 - pipenv run python src/module/requests_mod.py
-### Install virtualenv on Mac OS
-- pip install virtualenv
-- virtualenv --version
-### Using virtualenv on Mac OS
+## Virtualenv on Mac OS
 - cd project_folder
-- virtualenv venv
+- virtualenv venvyo
 - virtualenv -p /usr/bin/python2.7 venv
 - source venv/bin/activate
-- pip install requests
 - deactivate
-
 ## MariaDB
-### Install on Mac
-* brew install mariadb
-## Start MariaDB server
-* mysql.server start
-* brew services start mariadb
-* mysql -u root
-
-
-# Pip
-## Installation library
-* pip install pycodestyle
-* pip install requests
-
-## Using library
-* pycodestyle --first --show-source --show-pep8 optparse.py
+- mysql.server start
+- brew services start mariadb
+- mysql -u root
+## Pip
+- pip install pycodestyle
+- pip install requests
+## Pycodestyle
+- pycodestyle --first --show-source --show-pep8 optparse.py
 
 
 # Python Style Guide
@@ -66,7 +60,6 @@
 * Classes follow the capitalized words convention
 * Exceptions follow the capitalized words convention
 * Constants are written in uppercase letters
-
 
 
 # Django
