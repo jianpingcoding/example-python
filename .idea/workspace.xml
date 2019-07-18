@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15494a3a-edc4-4897-a7ab-1cd12e1267e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/module/requests_mod.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/djangoproject/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/djangoproject/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/djangoproject/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/djangoproject/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/pollapp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/pollapp/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/pollapp/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/pollapp/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/pollapp/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/pollapp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/pollapp/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/pollapp/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproject/pollapp/views.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="224">
+              <first_editor relative-caret-position="15">
                 <caret line="51" selection-start-line="51" selection-end-line="51" />
               </first_editor>
               <second_editor />
@@ -73,7 +56,7 @@
       <find>TIME_ZONE</find>
       <find>INSTALL</find>
       <find>Installll</find>
-      <find>example-python</find>
+      <find>learn-python</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -114,8 +97,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="356" />
-    <option name="y" value="23" />
+    <option name="x" value="551" />
+    <option name="y" value="130" />
     <option name="width" value="1098" />
     <option name="height" value="770" />
   </component>
@@ -125,24 +108,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="learn-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-python" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-python" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="learn-python" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="django" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -164,7 +152,7 @@
   </component>
   <component name="RunManager" selected="Python.requests">
     <configuration name="collection" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="example-python" />
+      <module name="learn-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -185,7 +173,7 @@
       <method v="2" />
     </configuration>
     <configuration name="django" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="example-python" />
+      <module name="learn-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -206,7 +194,7 @@
       <method v="2" />
     </configuration>
     <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="example-python" />
+      <module name="learn-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -227,7 +215,7 @@
       <method v="2" />
     </configuration>
     <configuration name="os_mod" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="example-python" />
+      <module name="learn-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -248,7 +236,7 @@
       <method v="2" />
     </configuration>
     <configuration name="requests" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="example-python" />
+      <module name="learn-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -292,10 +280,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="461" y="148" width="1098" height="770" extended-state="0" />
-    <editor active="true" />
+    <frame x="342" y="130" width="1098" height="770" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33147633" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33147633" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,7 +293,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29056048" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29056048" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -381,7 +368,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/example-python/lib/python3.7/site-packages/django/__init__.py" />
+    <entry file="file://$USER_HOME$/.virtualenvs/learn-python/lib/python3.7/site-packages/django/__init__.py" />
     <entry file="file://$PROJECT_DIR$/src/module/django.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -396,9 +383,9 @@
     <entry file="file://$PROJECT_DIR$/djangoapp/djangoapp/__init__.py" />
     <entry file="file://$PROJECT_DIR$/djangoapp/djangoapp/settings.py" />
     <entry file="file://$PROJECT_DIR$/djangoproject/djangoproject/urls.py" />
-    <entry file="file://$USER_HOME$/.virtualenvs/example-python/lib/python3.7/site-packages/django/db/backends/mysql/base.py" />
+    <entry file="file://$USER_HOME$/.virtualenvs/learn-python/lib/python3.7/site-packages/django/db/backends/mysql/base.py" />
     <entry file="file://$PROJECT_DIR$/djangoproject/djangoproject/__init__.py" />
-    <entry file="file://$USER_HOME$/.virtualenvs/example-python/lib/python3.7/site-packages/django/db/models/deletion.py" />
+    <entry file="file://$USER_HOME$/.virtualenvs/learn-python/lib/python3.7/site-packages/django/db/models/deletion.py" />
     <entry file="file://$PROJECT_DIR$/djangoproject/djangoproject/settings.py" />
     <entry file="file://$PROJECT_DIR$/djangoproject/pollapp/apps.py" />
     <entry file="file://$PROJECT_DIR$/djangoproject/pollapp/migrations/0001_initial.py" />
@@ -411,6 +398,13 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pipfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/module/requests_mod.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -421,17 +415,10 @@
     <entry file="file://$PROJECT_DIR$/Pipfile.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pipfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="224">
+          <first_editor relative-caret-position="15">
             <caret line="51" selection-start-line="51" selection-end-line="51" />
           </first_editor>
           <second_editor />
