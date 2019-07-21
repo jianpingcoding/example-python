@@ -8,20 +8,24 @@
   - brew update
 - Install GCC : 
   - Xcode or Command Line Tools
-- brew install python
+- brew install python (/usr/local/lib/python3.7/site-packages)
 - brew upgrade python
 - Setup PATH
   - nano ~/.bash_profile 
-  - add : export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+  - add : alias python='python3'
+  - add : alias pip='pip3'
   - source ~/.bash_profile
+- symbolic link
+  - unlink /usr/local/bin/python
+  - ln -s /usr/local/bin/python3.7 /usr/local/bin/python
 - python --version
 
 ## Installing Pipenv on Mac OS
-- pip install --user pipenv
+- pip install pipenv ()
 - add the user base’s binary directory to PATH.
-  - check path : python -m site --user-base (~/Library/Python/3.7)
   - nano ~/.bash_profile 
-  - add : export PATH=$PATH:~/Library/Python/3.7/bin
+  - add : export PATH=$PATH:/usr/local/lib/python3.7/site-packages/pipenv
+  - source ~/.bash_profilepi
   
 ## Installing virtualenv on Mac OS
 - pip install virtualenv
