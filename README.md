@@ -22,3 +22,4 @@
 - https://github.com/michaelliao/learn-python3
 - https://docs.python-guide.org
 - http://news.51cto.com/art/201902/592006.htm
+- https://docs.djangoproject.com/en/2.2/intro/tutorial01/
