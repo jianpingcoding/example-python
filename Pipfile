@@ -9,6 +9,7 @@ pycodestyle = "*"
 [packages]
 requests = "*"
 django = "*"
+mysqlclient = "*"
 
 [requires]
 python_version = "3.7"
