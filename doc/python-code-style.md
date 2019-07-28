@@ -13,4 +13,7 @@
 - Modules are required to have short, all-lowercase names
 - Classes follow the capitalized words convention
 - Exceptions follow the capitalized words convention
-- Constants are written in uppercase letters
+- local_var_name, global_var_name, instance_var_name
+- method_name, function_name, function_parameter_name
+- module_name, package_name
+- ClassName, GLOBAL_CONSTANT_NAME, ExceptionName

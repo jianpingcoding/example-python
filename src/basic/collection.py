@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
 # list, Indentation
-programming_languages = [
+langs = [
     'Python',
     'Java',
     'Swift'
 ]
-for lang in programming_languages:
+for lang in langs:
     print(lang)
 
 # tuple

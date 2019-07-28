@@ -11,7 +11,7 @@ person_dic_str = json.dumps(person_dict)
 print('Person JSON Data is a str:', person_dic_str)
 person_json = json.loads(person_dic_str)
 print(person_json)
-
+json.loads(person_json)
 
 class Student(object):
 
