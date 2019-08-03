@@ -2,7 +2,7 @@
 - Installing python 3, pipenv by 'doc/python.md'
 - pipenv install
 - pipenv run python src/module/requests_mod.py
-- active vertualenvs
+- active virtualenvs
   - cd /Users/gijoe/.local/share/virtualenvs/learn-python-JqwV0GUe/bin
   - source venv/bin/activate
 

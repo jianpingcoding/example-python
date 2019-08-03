@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15494a3a-edc4-4897-a7ab-1cd12e1267e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/dj_sample/polls/templates/polls/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/dj_sample/polls/templates/polls/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/dj_sample/polls/templates/polls/results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django/dj_sample/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/django/dj_sample/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/dj_sample/dj_sample/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/dj_sample/dj_sample/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/dj_sample/dj_sample/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/dj_sample/dj_sample/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django/dj_sample/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/dj_sample/polls/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django/dj_sample/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/dj_sample/polls/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/django.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/django.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/python-code-style.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/python-code-style.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/collection.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/collection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/string.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/use_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/use_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/django.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/django.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,23 +25,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>execute_from_command_line</find>
-      <find>DEBUG</find>
-      <find>8000</find>
-      <find>DATA</find>
-      <find>TIME_ZONE</find>
-      <find>INSTALL</find>
-      <find>Installll</find>
-      <find>learn-python</find>
-      <find>ROOT</find>
-      <find>mysql</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

@@ -6,6 +6,10 @@
 - pipenv run python manage.py runserver 0:8000
 ## Available URLs :
 - http://localhost:8080/polls/
+- http://localhost:8080/polls/hello/joh
+- http://localhost:8080/users/
+- http://localhost:8080/users/?format=json
+- http://localhost:8080/groups/
 
 # Admin Module
 ## Create super user
@@ -58,3 +62,7 @@ from django.contrib import admin
 from .models import Question
 admin.site.register(Question)
 ```
+
+# django rest framework
+## Serializers
+
