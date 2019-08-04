@@ -2,9 +2,7 @@
 - Installing python 3, pipenv by 'doc/python.md'
 - pipenv install
 - pipenv run python src/module/requests_mod.py
-- active virtualenvs
-  - cd /Users/gijoe/.local/share/virtualenvs/learn-python-JqwV0GUe/bin
-  - source venv/bin/activate
+- pipenv shell by active virtualenvs (/Users/gijoe/.local/share/virtualenvs)
 
 # python packages
 
@@ -23,3 +21,5 @@
 - https://docs.python-guide.org
 - http://news.51cto.com/art/201902/592006.htm
 - https://docs.djangoproject.com/en/2.2/intro/tutorial01/
+- https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
+- https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-32fcf40231e5
