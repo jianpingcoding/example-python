@@ -19,6 +19,8 @@
 - http://localhost:8080/users/
 - http://localhost:8080/users/?format=json
 - http://localhost:8080/groups/
+- http://localhost:8000/api/v1/songs/
+- http://127.0.0.1:8000/graphql
 
 # Admin Module
 ## Create super user
@@ -60,16 +62,18 @@ urlpatterns = [
 ]
 ```
 
+
 ## Creating models
 - polls/models.py
-
-
-# Others
 
 ## Activating models
 - python manage.py makemigrations polls
 - python manage.py sqlmigrate polls 0001
 - python manage.py migrate
+
+## Loading Test Data
+- create movies.json in root directory
+- python manage.py loaddata movies.json
 
 ## Playing with the API
 - python manage.py shell
@@ -86,3 +90,10 @@ admin.site.register(Question)
 # django rest framework
 ## Serializers
 
+## Graphql Service
+## 
+
+# URL
+- https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c
+- https://lock8.github.io/django-rest-framework-jwt-refresh-token/
+- https://stackabuse.com/building-a-graphql-api-with-django/
